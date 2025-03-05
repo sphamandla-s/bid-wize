@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import Logo from "./Logo";
+import Logo from "./shared/Logo";
 
 function IndexNavbar() {
   const [isOpen, setIsOpen] = useState(false);
