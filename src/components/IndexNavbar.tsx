@@ -10,7 +10,7 @@ function IndexNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="shadow-sm border-b border-gray-200 dark:border-gray-800 py-4 mb-28 md:mb-0">
+    <nav className="shadow-sm md:border-b border-gray-200 dark:border-gray-800 pt-4 md:py-4 mb-28 md:mb-0">
       <div className=" mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
